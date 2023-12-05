@@ -86,9 +86,10 @@ li h2{
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    
-
-
+    background-color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+    background-image:url('./img/cover.jpg');
+    color:lightgoldenrodyellow;
 }
 
 .statement h2{
@@ -101,18 +102,100 @@ li h2{
     flex-direction: row;
     justify-content: space-between;
     width:100%;
+    padding: 4rem 3rem;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+    color:lightgoldenrodyellow;
+
+
 }
 
 .card{
     display: flex;
     flex-direction: column;
-    width: 33%;
-    height: 10rem;
+    justify-items: space-between;
+    width: 30%;
+    height: 4rem;
     vertical-align: middle;
+    text-align: center;   
+     
+}
+
+.team{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 4rem;
+    background-color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.team .staff:nth-child(n+2){
+    width: 20%;
+} 
+
+.team h2{
     text-align: center;
-    padding: 0px 2rem;
+    width: 100%;
+    padding-bottom: 3rem;
+    font-size: 2.5rem;
+}
+
+.container{
+    display:flex;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+    padding: 10px 10px;
+    margin: 10px 5rem;
+}
+
+.staff{
+    flex-direction: row;
 
 }
-.card h3{
-    padding-bottom: 1rem;
+
+.staff h3, .staff h4{
+    text-align: center;
+    padding-bottom: 10px;
+    max-width: 75%;
+    margin: auto;
+}
+
+.staff h4{
+    height: 4rem;
+    padding-bottom:6rem;
+}
+.container img{
+    width: 12.5rem;
+    height:18.75rem;
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+
+.page-break{
+    border: 1px solid forestgreen
+}
+
+
+.about{
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+    color:lightgoldenrodyellow;
+    padding: 2rem 20rem;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.about h2{
+    text-align: center;
+} 
+
+.about h3{
+    text-align: center;
+    padding-top: 1.25rem;
 }
